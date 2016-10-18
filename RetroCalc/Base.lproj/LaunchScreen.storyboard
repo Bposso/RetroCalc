@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +18,53 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="tOX-22-7ye"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="AXy-qY-UMw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="UHL-Gk-pyw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-Uy-Oc1"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="FIC-hw-i4p">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="7FQ-1Q-hsA"/>
+                                    <constraint firstAttribute="height" constant="128" id="ISh-e4-NRx"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="Kio-Y4-xmh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="yJy-5e-yex"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tOX-22-7ye" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="34Y-wP-eF1"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="176" id="3IK-lH-p9P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FIC-hw-i4p" secondAttribute="trailing" constant="52" id="4oG-QE-rPz"/>
+                            <constraint firstAttribute="trailing" secondItem="AXy-qY-UMw" secondAttribute="trailing" id="8al-xS-4oy"/>
+                            <constraint firstItem="tOX-22-7ye" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ANK-Km-Ric"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="ClX-yc-NaT"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="top" secondItem="gL1-Uy-Oc1" secondAttribute="bottom" constant="33" id="Fdz-wt-VLH"/>
+                            <constraint firstAttribute="trailing" secondItem="tOX-22-7ye" secondAttribute="trailing" id="IVd-Sg-A8I"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tOX-22-7ye" secondAttribute="bottom" id="Ipz-E4-Pwu"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="leading" secondItem="gL1-Uy-Oc1" secondAttribute="leading" id="Lwx-0H-zdg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="AXy-qY-UMw" secondAttribute="bottom" id="OV6-Te-eFf"/>
+                            <constraint firstItem="AXy-qY-UMw" firstAttribute="top" secondItem="FIC-hw-i4p" secondAttribute="bottom" constant="202" id="lGW-KF-d0X"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="lkD-vb-N0O"/>
+                            <constraint firstItem="AXy-qY-UMw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sCA-a7-TMZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FIC-hw-i4p" secondAttribute="trailing" constant="52" id="vhb-rw-4GL"/>
+                            <constraint firstItem="FIC-hw-i4p" firstAttribute="trailing" secondItem="gL1-Uy-Oc1" secondAttribute="trailing" id="xNN-RD-jEL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
+        <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
+        <image name="robot" width="786" height="402"/>
+    </resources>
 </document>
