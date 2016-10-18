@@ -12,6 +12,8 @@
 		BAC7FA181DAC035E00AEEFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC7FA161DAC035E00AEEFCB /* Main.storyboard */; };
 		BAC7FA1A1DAC035E00AEEFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC7FA191DAC035E00AEEFCB /* Assets.xcassets */; };
 		BAC7FA1D1DAC035E00AEEFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC7FA1B1DAC035E00AEEFCB /* LaunchScreen.storyboard */; };
+		BAC7FA251DB5723500AEEFCB /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC7FA241DB5723500AEEFCB /* Minecrafter.Reg.ttf */; };
+		BAC7FA271DB575E400AEEFCB /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAC7FA261DB575E400AEEFCB /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BAC7FA191DAC035E00AEEFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC7FA1C1DAC035E00AEEFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC7FA1E1DAC035E00AEEFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC7FA241DB5723500AEEFCB /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		BAC7FA261DB575E400AEEFCB /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		BAC7FA111DAC035E00AEEFCB /* RetroCalc */ = {
 			isa = PBXGroup;
 			children = (
+				BAC7FA261DB575E400AEEFCB /* btn.wav */,
+				BAC7FA241DB5723500AEEFCB /* Minecrafter.Reg.ttf */,
 				BAC7FA121DAC035E00AEEFCB /* AppDelegate.swift */,
 				BAC7FA141DAC035E00AEEFCB /* ViewController.swift */,
 				BAC7FA161DAC035E00AEEFCB /* Main.storyboard */,
@@ -124,9 +130,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC7FA271DB575E400AEEFCB /* btn.wav in Resources */,
 				BAC7FA1D1DAC035E00AEEFCB /* LaunchScreen.storyboard in Resources */,
 				BAC7FA1A1DAC035E00AEEFCB /* Assets.xcassets in Resources */,
 				BAC7FA181DAC035E00AEEFCB /* Main.storyboard in Resources */,
+				BAC7FA251DB5723500AEEFCB /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

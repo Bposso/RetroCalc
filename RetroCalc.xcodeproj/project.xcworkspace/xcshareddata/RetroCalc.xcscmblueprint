@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A89A933BEA72AC56E39400BAA696BDB44CFCCA91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EB728B27A42500E19F0CE11E4D079EE7C9115120" : 9223372036854775807,
+    "A89A933BEA72AC56E39400BAA696BDB44CFCCA91" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB31E29B-E223-4606-8040-333F26D49396",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EB728B27A42500E19F0CE11E4D079EE7C9115120" : "",
+    "A89A933BEA72AC56E39400BAA696BDB44CFCCA91" : "RetroCalc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RetroCalc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RetroCalc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Bposso\/RetroCalc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A89A933BEA72AC56E39400BAA696BDB44CFCCA91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Bposso\/iOSSampleApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB728B27A42500E19F0CE11E4D079EE7C9115120"
+    }
+  ]
+}
