@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -224,21 +225,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reY-bw-JyH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="eB7-qR-bs6"/>
+                                    <constraint firstAttribute="height" constant="59" id="fGt-e5-XbT"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="clear"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vID-Zy-nJh" firstAttribute="top" secondItem="WH6-gY-HnS" secondAttribute="bottom" constant="17.5" id="4gL-zV-elD"/>
+                            <constraint firstItem="vID-Zy-nJh" firstAttribute="top" secondItem="WH6-gY-HnS" secondAttribute="bottom" constant="23.5" id="4gL-zV-elD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rul-CW-a3X" secondAttribute="bottom" id="5Iv-c1-uLJ"/>
-                            <constraint firstItem="huU-W6-Ihc" firstAttribute="trailing" secondItem="WH6-gY-HnS" secondAttribute="trailing" constant="-17" id="5cj-lO-sNN"/>
-                            <constraint firstItem="vID-Zy-nJh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="40" id="7gb-Xf-Wqx"/>
+                            <constraint firstItem="huU-W6-Ihc" firstAttribute="trailing" secondItem="WH6-gY-HnS" secondAttribute="trailing" constant="-18" id="5cj-lO-sNN"/>
+                            <constraint firstItem="vID-Zy-nJh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="13.5" id="7gb-Xf-Wqx"/>
                             <constraint firstAttribute="trailing" secondItem="rul-CW-a3X" secondAttribute="trailing" id="BKM-Bd-v7c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="reY-bw-JyH" secondAttribute="trailing" constant="51" id="JyB-iP-03M"/>
                             <constraint firstItem="XpB-eY-rvA" firstAttribute="centerX" secondItem="vID-Zy-nJh" secondAttribute="centerX" id="KYj-Hk-qeq"/>
                             <constraint firstItem="XpB-eY-rvA" firstAttribute="centerY" secondItem="vID-Zy-nJh" secondAttribute="centerY" id="OmI-Er-N92"/>
                             <constraint firstItem="UOM-Zw-j3b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VV4-i4-kJE"/>
-                            <constraint firstItem="huU-W6-Ihc" firstAttribute="leading" secondItem="WH6-gY-HnS" secondAttribute="leading" constant="17" id="eBz-rq-fd3"/>
+                            <constraint firstItem="huU-W6-Ihc" firstAttribute="leading" secondItem="WH6-gY-HnS" secondAttribute="leading" constant="16" id="eBz-rq-fd3"/>
                             <constraint firstItem="rul-CW-a3X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="edS-Vz-hvT"/>
+                            <constraint firstItem="reY-bw-JyH" firstAttribute="top" secondItem="vID-Zy-nJh" secondAttribute="bottom" constant="15" id="egk-7d-cRs"/>
                             <constraint firstItem="rul-CW-a3X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ihM-Hv-ECF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UOM-Zw-j3b" secondAttribute="bottom" id="jva-xC-UKJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="reY-bw-JyH" secondAttribute="bottom" constant="20" id="mUV-4L-J5b"/>
+                            <constraint firstItem="reY-bw-JyH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="mcs-I6-RSP"/>
                             <constraint firstItem="huU-W6-Ihc" firstAttribute="centerY" secondItem="WH6-gY-HnS" secondAttribute="centerY" id="oNQ-ST-kPF"/>
                             <constraint firstItem="vID-Zy-nJh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rUt-9T-i4v"/>
                             <constraint firstItem="WH6-gY-HnS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rVl-kR-zgb"/>
@@ -251,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1044" y="148"/>
+            <point key="canvasLocation" x="-1044.375" y="147.88732394366198"/>
         </scene>
     </scenes>
     <resources>
@@ -267,6 +279,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
