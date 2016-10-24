@@ -119,5 +119,17 @@ class ViewController: UIViewController {
         }
 
     }
+    
+    
+    
+    
+    @IBAction func clearPressed(_ sender: AnyObject) {
+        
+        playSound()
+        processOperation(operation: .Empty)
+        outputLbl.text = "0"
+        
+    }
+    
 
 }
