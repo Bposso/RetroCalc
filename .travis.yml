@@ -1,5 +1,8 @@
 language: objective-c #1
+<<<<<<< HEAD
 #osx_image: xcode8 #2
+=======
+>>>>>>> f18e2fd594fc854b5940407d1ff219827ab4b4ee
 xcode_project: RetroCalc.xcodeproj #3
 xcode_scheme: RetroCalc #4
 xcode_sdk: iphonesimulator9.3 #5
